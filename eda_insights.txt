@@ -1,0 +1,39 @@
+
+EXPLORATORY DATA ANALYSIS - KEY INSIGHTS
+Titanic Passenger Dataset (cleaned, n=250)
+=======================================================
+
+1. Overall survival rate was 34.4%, but this varied
+   sharply by passenger class: 1st class passengers survived at
+   47.8%, compared to only 28.0%
+   for 3rd class. Wealth/class was strongly tied to survival chances.
+
+2. Sex was the single strongest predictor of survival: women survived at
+   70.9% versus just 15.2%
+   for men, consistent with the historical "women and children first"
+   evacuation policy.
+
+3. Survivors were on average younger than non-survivors
+   (24.7 years vs 29.1 years),
+   suggesting children and younger passengers had a survival edge over
+   older passengers.
+
+4. Fare correlated with class as expected -- 1st class passengers paid
+   roughly 73 on average vs 15
+   for 3rd class -- and higher fares were positively correlated with
+   survival, reinforcing the class-based survival gap.
+
+5. Passengers with a recorded cabin number survived at
+   58.3% compared to 28.7%
+   for those without one. Since cabin records are far more common
+   among 1st/2nd class tickets, this is another proxy signal for the
+   class effect on survival, rather than an independent cause.
+
+6. The correlation heatmap shows Pclass has a meaningful negative
+   correlation with Survived, meaning lower-numbered (better) classes
+   were associated with higher survival, matching the patterns already
+   observed in the class breakdown above.
+
+Overall, the analysis shows survival on the Titanic was driven mainly by
+a combination of sex, passenger class, and age, with fare and cabin
+records acting as secondary indicators of the same underlying class effect.
