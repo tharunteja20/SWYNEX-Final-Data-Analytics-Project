@@ -64,7 +64,7 @@ Full code: [`clean_titanic.py`](clean_titanic.py) · Raw data: [`titanic_raw.csv
 Full code: [`eda_titanic.py`](eda_titanic.py) · Full write-up: [`eda_insights.txt`](eda_insights.txt) · Charts: [`/charts`](charts)
 
 **Key statistics calculated:** overall survival rate, survival rate by class/sex/embarkation port, average fare by class, average age by survival outcome, and a correlation matrix across the numeric features.
-
+![Titanic Charts](titanic_charts_combined.png)
 **Charts produced:**
 | Chart | File |
 |---|---|
